@@ -1,0 +1,21 @@
+{
+    "name": "geocoding-app",
+    "version": "1.0.0",
+    "description": "A simple geocoding application using React and Node.js",
+    "main": "server.js",
+    "scripts": {
+        "dev": "vite",
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "axios": "^1.3.4",
+        "csv-writer": "^1.6.0",
+        "express": "^4.18.2",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "@vitejs/plugin-react": "^3.1.0",
+        "vite": "^4.5.9"
+    }
+}
